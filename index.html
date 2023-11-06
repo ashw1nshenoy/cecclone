@@ -6,6 +6,7 @@
     <title>Canara Engineering College</title>
     <link rel="icon" href="Images/logocec.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
@@ -40,14 +41,13 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">Institute</a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">History</a></li>
+                    <li><a class="dropdown-item" href="#">Accredation</a></li>
+                    <li><a class="dropdown-item" href="#">Our Desk</a></li>
+                    <li><a class="dropdown-item" href="#">Principal's Desk</a></li>
+                    <li><a class="dropdown-item" href="#">Scretary's Desk</a></li>
+                    <li><a class="dropdown-item" href="#">Governing Councils</a></li>
+                    <li><a class="dropdown-item" href="#">Research</a></li>
                   </ul>
               </li>
               <li class="nav-item dropdown">
@@ -65,18 +65,16 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Students</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Campus Life</a></li>
+                  <li><a class="dropdown-item" href="#">Marks and Attendance</a></li>
+                  <li><a class="dropdown-item" href="#">Student Information</a></li>
+                  <li><a class="dropdown-item" href="#">Scholarships</a></li>
+                  <li><a class="dropdown-item" href="#">Instructions to parents</a></li>
+                  <li><a class="dropdown-item" href="#">Hostel Outpass</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">T&P Cell</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item ">
+                <a class="nav-link " href="#">T&P Cell</a>
               </li>
             </ul>
             <form role="search" class="search">
@@ -88,7 +86,7 @@
       </nav>
       <!--About-->
       <div class="row featurette my-4 mx-2">
-        <div class="d-flex col-md-7 order-md-2 flexcol align-items-center ">
+        <div class="d-flex col-md-7 order-md-2 flexcol align-items-center abtreveal">
           <img src="Images/about.png" alt="" class="abtimg">
           <h2 class="featurette-heading fw-normal lh-1"><u>About Us</u></h2>
           <p class="lead">Canara Engineering College (CEC) is a premier engineering institute of the Mangalore region. CEC is established by the Canara Group of Institutions (Canara High School Association) founded by the late Ammembal Subba Rao Pai. The college is affiliated to Visvesvaraya Technological University, Belgaum, recognized by Government of Karnataka and approved by AICTE, New Delhi.
@@ -97,8 +95,8 @@
 
             The College was started in the year 2001 with 180 seats in 3 Branches of Engineering. Two more Engineering branches were added in the year 2004. At present it has 8 sections with a total intake of 504 seats including 24 seats of SNQ.</p>
           <div class="flex mx-2">
-          <button class="btn btn-primary rounded-pill px-3  mx-2">Our Vision</button>
-          <button class="btn btn-primary rounded-pill px-3  mx-2">Our Mission</button>
+          <button class="btn btn-primary rounded-pill px-3  mx-2 vision">Our Vision</button>
+          <button class="btn btn-primary rounded-pill px-3  mx-2 mission">Our Mission</button>
         </div>
         </div>
         <div class="col-md-5 order-md-1 imgcenter">
@@ -126,7 +124,7 @@
 <div>
   <h2 style="text-align: center;"><u>Courses we offer</u></h2>
 <div class="cardcourse r">
-  <div class="px-4 text-center">
+  <div class="px-4 text-center cs">
     <img class="d-block mx-auto mb-4 imgcourse" src="Images/cs.jpg" alt="" width="250px" height="200px">
     <h4 class="display-7 text-body-emphasis">Computer Science and Engineering</h4>
     <div class="col-lg-6 mx-auto">
@@ -135,7 +133,7 @@
       </div>
     </div>
   </div>
-  <div class="px-4 text-center">
+  <div class="px-4 text-center is">
     <img class="d-block mx-auto mb-4 imgcourse" src="Images/is.jpg" alt=""  width="250px" height="200px">
     <h4 class="display-7 text-body-emphasis">Information Science and Engineering</h4>
     <div class="col-lg-6 mx-auto">
@@ -147,7 +145,7 @@
   </div>
 </div>
 <div class="cardcourse g">
-  <div class="px-4 text-center">
+  <div class="px-4 text-center ai">
     <img class="d-block mx-auto mb-4 imgcourse" src="Images/ai.jpg" alt=""  width="250px" height="200px">
     <h4 class="display-7 text-body-emphasis">Artificial Intenlligence and Machine Learning</h4>
     <div class="col-lg-6 mx-auto">
@@ -156,7 +154,7 @@
       </div>
     </div>
   </div>
-  <div class="px-4 text-center">
+  <div class="px-4 text-center csd">
     <img class="d-block mx-auto mb-4 imgcourse" src="Images/csd.jpg" alt=""  width="250px" height="200px">
     <h4 class="display-7 text-body-emphasis">Computer Science and Design</h4>
     <div class="col-lg-6 mx-auto">
@@ -166,7 +164,7 @@
     </div>
   </div>
 </div>
-<div class="cardcourse b"><div class="px-4 text-center">
+<div class="cardcourse b"><div class="px-4 text-center csbs">
   <img class="d-block mx-auto mb-4 imgcourse" src="Images/csbs.jpg" alt="" width="250px" height="200px">
   <h4 class="display-7 text-body-emphasis">Computer Science and Business System</h4>
   <div class="col-lg-6 mx-auto">
@@ -175,7 +173,7 @@
     </div>
   </div>
 </div>
-<div class="px-4 text-center">
+<div class="px-4 text-center ec">
   <img class="d-block mx-auto mb-4 imgcourse" src="Images/ec.jpg" alt=""  width="250px" height="200px">
   <h4 class="display-7 text-body-emphasis">Electronincs and Communication Engineering</h4>
   <div class="col-lg-6 mx-auto">
@@ -186,7 +184,7 @@
 </div>
 </div>
 <div class="cardcourse p">
-  <div class="px-4 text-center">
+  <div class="px-4 text-center mech">
     <img class="d-block mx-auto mb-4 imgcourse" src="Images/mech.jpg" alt="" width="250px" height="200px">
     <h4 class="display-7 text-body-emphasis">Mechanical Engineering </h4>
     <div class="col-lg-6 mx-auto">
@@ -205,12 +203,12 @@
   <h2><u>Training & Placement Statistics</u></h2>
 </div>
 <div class="d-flex flex-wrap my-4 ">
-  <div class="d-flex offer  flexcol justify-content-center align-items-center margin">
+  <div class="d-flex offer  flexcol justify-content-center align-items-center margin ">
     <img src="Images/handshake.png" alt="" class="placement">
     <h3>440</h3>
     <p>Total Offers</p>
   </div>
-  <div class="d-flex flexcol justify-content-center align-items-center recruiters  margin">
+  <div class="d-flex flexcol justify-content-center align-items-center recruiters  margin ">
     <img src="Images/office-building.png" alt="" class="placement">
     <h3>133</h3>
     <p>Our Recruiters</p>
@@ -225,10 +223,10 @@
 <!--Facilities-->
 <div class="d-flex justify-content-center align-items-center flexcol">
 <div>
-<h2><u>Facilities</u></h2>
+<h2 class="fac"><u>Facilities</u></h2>
 </div>
 <div class="d-flex disflex ">
-<div>
+<div class="amen">
 <figure class="snip1361 px-4 my-4">
   <img src="Images/amentities.jpg" alt="sample45" class="amentities" />
   <figcaption>
@@ -243,7 +241,7 @@
   </figcaption>
 </figure>
 </div>
-<div>
+<div class="sup">
 <figure class="snip1361 px-4 my-4">
   <img src="Images/support.jpg" alt="sample77" class="support"/>
   <figcaption>
@@ -274,12 +272,12 @@
   <section class="mb-4">
   
     
-    <h2 class="h1-responsive font-weight-bold text-center my-4"><u>Admission enquiry</u></h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-4 add"><u>Admission enquiry</u></h2>
     
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. 
+    <p class="text-center w-responsive mx-auto mb-5 add">Do you have any questions? Please do not hesitate to contact us directly. 
   
   
-    <div class="row my-0 py-0 d-flex justify-content-center align-item-center">
+    <div class="row my-0 py-0 d-flex justify-content-center align-item-center enq">
   
         
         <div class="col-md-9 mb-md-0 mb-5">
@@ -331,7 +329,7 @@
   
             </form>
   
-            <div class="text-center text-md-left my-0 py-0">
+            <div class="text-center text-md-left my-0 py-0 submitt">
                 <a class="btn btn-primary">Submit</a>
             </div>
             <div class="status"></div>
@@ -447,7 +445,7 @@
         </div>
       </section>
       <div class="text-center p-4 ">
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">© 2023 CEC & Canara High School Association Mangalore | All Rights Reserved | Design by CEC Web Team</a>
+        <a class="text-reset fw-bold" href="#">© 2023 CEC & Canara High School Association Mangalore | All Rights Reserved | Design by CEC Web Team</a>
       </div>
     </footer>
   </div>
