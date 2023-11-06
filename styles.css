@@ -85,6 +85,14 @@ background-color:#FFCF9D;
 .p{
  background-color:#FFC7EA ; 
 }
+.imgcourse{
+  position: relative;
+  top: 20px;
+  padding: 1rem;
+}
+.btnmore{
+  width: 10rem;
+}
 /*Facilities*/
 .snip1361 {
   font-family: 'Quattrocento', Arial, sans-serif;
@@ -196,6 +204,9 @@ background-color:#FFCF9D;
     }
     .r,.g, .b, .p{
       flex-direction: column;
+    }
+    .imgcourse{
+      padding-top: 3rem;
     }
 
 } 
