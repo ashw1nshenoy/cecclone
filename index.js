@@ -20,13 +20,14 @@ ScrollReveal().reveal('.placedno ',{delay:700,origin:'bottom',interval:200,dista
 ScrollReveal().reveal('.fac ',{delay:500,origin:'bottom',interval:200,distance:'45px'})
 ScrollReveal().reveal('.amen ',{delay:600,origin:'left',interval:200,distance:'45px'})
 ScrollReveal().reveal('.r h2 ',{delay:400,origin:'top',interval:200,distance:'45px'})
-ScrollReveal().reveal('.sup ',{delay:600,origin:'right',interval:200,distance:'45px'})
+ScrollReveal().reveal('.sup ',{delay:600,origin:'bottom',interval:200,distance:'45px'})
 ScrollReveal().reveal('.add ',{delay:500,origin:'top',interval:200,distance:'45px'})
 ScrollReveal().reveal('.box-2 ',{delay:600,origin:'left',interval:200,distance:'45px'})
 ScrollReveal().reveal('.enq ',{delay:500,origin:'bottom',interval:200,distance:'45px'})
 ScrollReveal().reveal('.submitt ',{delay:700,origin:'right',interval:200,distance:'45px'})
 ScrollReveal().reveal('.ach h2 ',{delay:500,origin:'top',interval:200,distance:'145px'})
 ScrollReveal().reveal('.achievements ',{delay:700,origin:'bottom',interval:200,distance:'45px'})
+ScrollReveal().reveal('.profile ',{delay:100,origin:'bottom',interval:200,distance:'45px'})
 
 
 let valueDisplays = document.querySelectorAll(".num");
