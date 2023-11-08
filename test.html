@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+  <title>Stacking Context</title>
+<style>
+    
+
+#red {
+  z-index: 1;
+  background-color: #ff6262;
+}
+
+#blue {
+  z-index: 2;
+  top: 100px;
+  left: 150px;
+  background-color: #92dceb;
+}
+
+#green {
+  z-index: 3;
+  top: 200px;
+  left: 40px;
+  background-color: #a4d57c;
+}
+
+div {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border: 0px solid black;
+  border-radius: 8px;
+  color: white;
+  padding: 0.5rem;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <section>
+    <div id="red" onmouseover="moveToTop(this)"> Red </div>
+    <div id="blue" onmouseover="moveToTop(this)"> Blue </div>
+    <div id="green" onmouseover="moveToTop(this)"> Green </div>
+  </section>
+</body>
+
+</html>

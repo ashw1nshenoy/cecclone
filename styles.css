@@ -4,9 +4,180 @@
   position: relative;
   top: 40px;
 }
+.nav-link{
+  text-decoration: none;
+}
+.logo{
+  height: 70px;
+  width: 70px;
+}
 .fontchange{
   font-weight: 100;
   font-size: small;
+}
+#red {
+  position: relative;
+  top: 70px;
+  left: 100px;
+  z-index: 1;
+}
+.e1{
+  background: url('Images/e1.jpeg');
+  background-size: cover;
+}
+.e2{
+  background: url('Images/e2.jpeg');
+  background-size: cover;
+}
+.e3{
+  background: url('Images/e3.jpeg');
+  background-size: cover;
+}
+.e4{
+  background: url('Images/e4.jpeg');
+  background-size: cover;
+}
+.e5{
+  background: url('Images/e5.jpeg');
+  background-size: cover;
+}
+.e6{
+  background: url('Images/e6.jpeg');
+  background-size: cover;
+}
+.e7{
+  background: url('Images/e7.jpeg');
+  background-size: cover;
+}
+.e8{
+  background: url('Images/e8.jpeg');
+  background-size: cover;
+}
+.e9{
+  background: url('Images/e9.jpeg');
+  background-size: cover;
+}
+.ach h2{
+  margin-top: 5rem;
+}
+.achievements{
+ margin: auto 4rem;
+}
+.section-heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin: 0 0 70px;
+}
+
+.containertest {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto 10rem auto;
+}
+
+.profile {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.profile:hover {
+  transform: translateY(25px);
+}
+
+.profile img {
+  max-width: 70%;
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+  filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+
+.profile:not(:first-child) img {
+  margin-left: -20px;
+}
+
+.profile .name {
+  position: absolute;
+  background-color: #87C4FF;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 100px;
+  bottom: -80px; left: 25%;
+  white-space: nowrap;
+  text-align: center;
+  transform: translate(-50%, -50px);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.profile .name::before {
+  content: "";
+  position: absolute;
+  width: 15px; height: 15px;
+  background-color: #87C4FF;
+  top: 0; left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.profile img:hover + .name {
+  opacity: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+}
+#blue {
+  position: relative;
+  z-index: 2;
+  bottom: 10px;
+  left: 170px;
+  background-color: #92dceb;
+}
+
+#green {
+  z-index: 3;
+  position: relative;
+  bottom: 170px;
+  left: 40px;
+  background-color: #a4d57c;
+}
+
+.divstack {
+  width: 200px;
+  height: 200px;
+  border: 0px solid black;
+  border-radius: 8px;
+  color: white;
+  padding: 0.5rem;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+ 
+  z-index: 2;
+  color: black;
+}
+.clgimg{
+  background-image: url('Images/collegebackground.jpg');
+  background-size: cover;
+  height: 100vh;
+  opacity: 75%;
+}
+.abtreveal{
+  color: white;
+  opacity: 100%;
+ 
+}
+.z{
+  z-index: 10;
+}
+.shorttext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 57rem;
+  font-size: medium;
 }
 .search{
     display: flex;
@@ -47,10 +218,7 @@
     position: relative;
     top: 140px;
   }
-  .img{
-    height: 20rem;
-    width: 12rem;
-  }
+
 
 .placement{
   height: 4rem;
@@ -62,6 +230,7 @@
 .margin{
   margin: 2rem 4rem;
 }
+
 /*Courses we offer*/
 .cardcourse{
   height: 100vh;
@@ -98,8 +267,8 @@ background-color:#FFCF9D;
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  /* min-width: 230px; */
+  /* max-width: 315px; */
   width: 100%;
   color: #141414;
   text-align: left;
@@ -114,24 +283,26 @@ background-color:#FFCF9D;
   transition: all 0.35s ease;
 }
 .snip1361 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   border-radius: 1rem;
   vertical-align: top;
 }
 .support{
-  height: 15rem;
+  height: 20rem;
   width: 17rem;
 }
 .amentities{
-  height: 15rem;
+  height: 20rem;
   width: 17rem;
 }
 .snip1361 figcaption {
   position: absolute;
-  top: calc(77%);
-  width: 100%;
+  top: calc(83%);
+  width: 17rem;
+  height: 18rem;
   background-color: #ffffff;
-  padding: 15px 25px 65px;
+  padding: 15px 25px 55px;
+ 
 }
 .snip1361 figcaption:before {
   position: absolute;
@@ -139,8 +310,8 @@ background-color:#FFCF9D;
   z-index: 2;
   bottom: 100%;
   left: 0;
-  width: 100%;
-  height: 80px;
+  width: 17rem;
+  height: 12rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
   background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
 }
@@ -170,12 +341,78 @@ background-color:#FFCF9D;
 }
 .snip1361:hover figcaption,
 .snip1361.hover figcaption {
-  top: 80px;
+  top: 60px;
+} 
+.num{
+  font-size: x-large;
+  font-weight: bold;
 }
 
   /* Media Query for Mobile Devices */ 
-  @media (max-width: 480px) { 
-    .disflex{
+  @media (max-width: 480px) {
+    .shorttext{
+      width: 70%;
+    }
+    .achi{
+      display: flex;
+      flex-direction: column;
+    }
+    .r h2{
+      font-size: small;
+    }
+    .containertest{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .profile{
+      padding-bottom: 10rem ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile .name {
+      position: absolute;
+      background-color:#87C4FF;
+      color: #fff;
+      font-size: small;
+      padding: 15px 35px;
+      border-radius: 100px;
+      bottom: 30px; left: 50%;
+      white-space: nowrap;
+      text-align: center;
+      transform: translate(-50%, -50px);
+      opacity: 0;
+      transition: all 0.3s;
+    }
+    .achievements{
+      position: relative;
+      left: -27%;
+    }
+
+    .r button{
+      height: 40%;
+      width: 30%;
+      font-size: xx-small;
+    }
+    .r h4{
+      font-size: x-small;
+    }
+    .g h4{
+      font-size: x-small;
+    }
+    .r img{
+      height: 60%;
+      width: 50%;
+    }    
+    .g img{
+      height: 60%;
+      width: 50%;
+    }
+    .shorttext p{
+      font-size: xx-small;
+    }
+    .disflex,.cs{
       flex-direction: column;
     }
     .imgcenter{
